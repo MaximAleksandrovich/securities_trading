@@ -1,3 +1,5 @@
+# Загрузка истории изменения цен в SQLite
+
 import csv
 import io
 import sqlite3
