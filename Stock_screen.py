@@ -40,11 +40,9 @@ rise_columns = [f'{day}Rise' for day in range(index-days, index+1)]
 
 # выбираем 5 символов с максимальным показателем {index}Rise
 top_symbols = result_df.nlargest(5, f'{index}Rise')['Symbol'].tolist()
-print('top_symbols', top_symbols)
 
-# # выбираем 5 символов с показателем {index}Rise c 30-го по 40-й
+# # выбираем 10 символов с показателем {index}Rise c 30-го по 40-й
 # top_symbols = result_df.nlargest(40, f'{index}Rise')['Symbol'].tolist()[-10:]
-# print('2top_symbols', top_symbols)
 
 # выбираем 3 символа с минимальным показателем {index}Rise
 bottom_symbols = result_df.nsmallest(3, f'{index}Rise')['Symbol'].tolist()
