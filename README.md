@@ -1,6 +1,6 @@
 # securities_trading
 Набор python скриптов, который позволяет:
-1. Создать базу данных SQLite по результатам торгов на бирже Nasdaq/Nyse (укажите интересующие Вас тикеры и путь к Вашей базе данных в файле [constants.py]([https://pages.github.com/](https://github.com/MaximAleksandrovich/securities_trading/blob/main/constants.py)) constants.py. Запустите скрипт [Priceparsing_to_SQL.py] ([https://pages.github.com/](https://github.com/MaximAleksandrovich/securities_trading/blob/main/Priceparsing_to_SQL.py)))
+1. Создать базу данных SQLite по результатам торгов на бирже Nasdaq/Nyse (укажите интересующие Вас тикеры и путь к Вашей базе данных в файле [constants.py](https://github.com/MaximAleksandrovich/securities_trading/blob/main/constants.py). Запустите скрипт [Priceparsing_to_SQL.py](https://github.com/MaximAleksandrovich/securities_trading/blob/main/Priceparsing_to_SQL.py))
 2. Делать апдейт базы (необходимо запустить скрипт Update.py)
 3. Выводить график изменения стоимости акций за последние N торговых сессий (для этого необходимо в скрипте Stock_screen.py в переменной days
    указать количество торговых сессий, за которое Вы хотите посмотреть динамику изменения акций, и запустить Stock_screen.py). По умолчанию
